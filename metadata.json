@@ -1,0 +1,7 @@
+{
+  "name": "Lawnflow Studio",
+  "description": "Digital agency helping lawn care & landscaping companies get found on Google, win more reviews, and never miss a customer call.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
