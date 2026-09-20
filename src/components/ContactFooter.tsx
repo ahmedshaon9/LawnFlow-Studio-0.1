@@ -72,40 +72,40 @@ export default function ContactFooter({ onOpenAudit }: ContactFooterProps) {
         </div>
 
         {/* Heading */}
-        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display italic text-text-primary leading-[1.02] tracking-tight mb-6">
+        <h2 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-display italic text-text-primary leading-[1.1] sm:leading-[1.02] tracking-tight mb-4 sm:mb-6">
           See exactly why your competitors <span className="accent-gradient-text">outrank you.</span>
         </h2>
 
         {/* Subtext */}
-        <p className="text-sm md:text-base text-muted max-w-xl mx-auto mb-10 leading-relaxed font-normal">
+        <p className="text-xs sm:text-sm md:text-base text-muted max-w-xl mx-auto mb-8 sm:mb-10 leading-relaxed font-normal">
           We record a personal video for your business. If it&rsquo;s not useful, delete it
           and keep the info.
         </p>
 
         {/* Action Buttons with gradient hover border ring */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5">
+        <div className="w-full sm:w-auto flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
           {/* Main Free Audit Trigger */}
-          <div className="relative group inline-block">
+          <div className="relative group w-full sm:w-auto">
             <span className="absolute -inset-[2px] rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-[3px]" />
             <button
               id="cta-get-free-audit-btn"
               onClick={onOpenAudit}
-              className="relative inline-flex items-center gap-2 rounded-full px-8 py-4 bg-text-primary text-bg font-semibold text-xs sm:text-sm hover:bg-bg hover:text-text-primary transition-all duration-300 shadow-2xl hover:scale-105 cursor-pointer border border-transparent hover:border-[#10B981]/40"
+              className="relative w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-full px-6 sm:px-8 py-3.5 sm:py-4 bg-text-primary text-bg font-semibold text-xs sm:text-sm hover:bg-bg hover:text-text-primary transition-all duration-300 shadow-2xl hover:scale-105 cursor-pointer border border-transparent hover:border-[#10B981]/40"
             >
               <span>Get My Free Audit</span>
-              <span className="text-base leading-none">↗</span>
+              <span className="text-sm sm:text-base leading-none">↗</span>
             </button>
           </div>
 
           {/* Calendly Booking Link */}
-          <div className="relative group inline-block">
+          <div className="relative group w-full sm:w-auto">
             <span className="absolute -inset-[2px] rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-[2px]" />
             <a
               id="cta-calendly-btn"
               href="https://calendly.com/lawnflowstudio/30min"
               target="_blank"
               rel="noreferrer"
-              className="relative inline-flex items-center gap-2 rounded-full px-7 py-4 bg-surface border border-stroke text-text-primary hover:text-white font-medium text-xs sm:text-sm transition-all duration-300 hover:scale-105 backdrop-blur-md cursor-pointer"
+              className="relative w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-full px-6 sm:px-7 py-3.5 sm:py-4 bg-surface border border-stroke text-text-primary hover:text-white font-medium text-xs sm:text-sm transition-all duration-300 hover:scale-105 backdrop-blur-md cursor-pointer"
             >
               <span>Book 30-Min Call</span>
               <span className="text-xs text-[#10B981]">↗</span>

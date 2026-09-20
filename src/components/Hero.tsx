@@ -109,59 +109,59 @@ export default function Hero({ onGetAudit, onSeeHowItWorks }: HeroProps) {
       {/* Hero Content (centered, z-10) */}
       <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
         {/* Eyebrow */}
-        <div className="blur-in mb-6 sm:mb-8 text-[11px] sm:text-xs text-muted uppercase tracking-[0.3em] font-medium inline-flex items-center gap-2">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#0099B2]" />
-          FOR LAWN CARE &amp; LANDSCAPING CONTRACTORS
-          <span className="w-1.5 h-1.5 rounded-full bg-[#22C55E]" />
+        <div className="blur-in mb-4 sm:mb-8 text-[10px] sm:text-xs text-muted uppercase tracking-[0.18em] sm:tracking-[0.3em] font-medium inline-flex items-center gap-1.5 sm:gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 max-w-[92vw]">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#0099B2] shrink-0" />
+          <span className="truncate">FOR LAWN CARE &amp; LANDSCAPING CONTRACTORS</span>
+          <span className="w-1.5 h-1.5 rounded-full bg-[#22C55E] shrink-0" />
         </div>
 
         {/* Headline */}
-        <h1 className="name-reveal text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display italic leading-[0.95] tracking-tight text-text-primary mb-6">
+        <h1 className="name-reveal text-3xl xs:text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-display italic leading-[1.08] sm:leading-[0.95] tracking-tight text-text-primary mb-4 sm:mb-6 px-2">
           Get Found. Get Calls.{' '}
           <span className="accent-gradient-text italic font-display">Growing.</span>
         </h1>
 
         {/* Role line */}
-        <div className="blur-in text-lg sm:text-xl md:text-2xl text-text-primary/90 font-light mb-4 h-9 sm:h-10 flex items-center justify-center gap-1.5">
-          <span>We turn</span>
+        <div className="blur-in text-sm sm:text-lg md:text-2xl text-text-primary/90 font-light mb-4 min-h-[2rem] sm:min-h-[2.5rem] flex items-center justify-center gap-1 sm:gap-1.5 px-2">
+          <span className="text-xs sm:text-base md:text-xl text-neutral-300">We turn</span>
           <span
             key={roleIndex}
-            className="font-display italic accent-gradient-text text-xl sm:text-2xl md:text-3xl animate-role-fade-in inline-block px-1"
+            className="font-display italic accent-gradient-text text-base sm:text-xl md:text-3xl animate-role-fade-in inline-block px-1"
           >
             {ROLES[roleIndex]}
           </span>
-          <span>into booked jobs.</span>
+          <span className="text-xs sm:text-base md:text-xl text-neutral-300">into booked jobs.</span>
         </div>
 
         {/* Description */}
-        <p className="blur-in text-sm md:text-base text-muted max-w-lg mx-auto mb-10 sm:mb-12 leading-relaxed font-normal">
+        <p className="blur-in text-xs sm:text-sm md:text-base text-muted max-w-lg mx-auto mb-8 sm:mb-12 leading-relaxed font-normal px-2">
           87% of homeowners search &lsquo;lawn care near me&rsquo; before calling anyone.
           If you&rsquo;re not in the top 3 on Google Maps, those customers are going to
           your competitors — every single day.
         </p>
 
         {/* CTA Buttons */}
-        <div className="blur-in inline-flex flex-col sm:flex-row items-center gap-4 sm:gap-5">
+        <div className="blur-in w-full sm:w-auto inline-flex flex-col sm:flex-row items-center gap-3 sm:gap-5 px-4 sm:px-0">
           {/* Primary Solid Button */}
-          <div className="relative group">
+          <div className="relative group w-full sm:w-auto">
             <span className="absolute -inset-[2px] rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-[3px]" />
             <button
               id="hero-audit-cta"
               onClick={onGetAudit}
-              className="relative inline-flex items-center justify-center rounded-full text-sm font-semibold px-7 py-3.5 bg-text-primary text-bg hover:bg-bg hover:text-text-primary transition-all duration-300 hover:scale-105 shadow-xl shadow-black/30 cursor-pointer border border-transparent hover:border-[#10B981]/40"
+              className="relative w-full sm:w-auto inline-flex items-center justify-center rounded-full text-xs sm:text-sm font-semibold px-6 sm:px-7 py-3 sm:py-3.5 bg-text-primary text-bg hover:bg-bg hover:text-text-primary transition-all duration-300 hover:scale-105 shadow-xl shadow-black/30 cursor-pointer border border-transparent hover:border-[#10B981]/40"
             >
               <span>Get Free Video Audit</span>
-              <span className="ml-2 text-base leading-none">↗</span>
+              <span className="ml-2 text-sm sm:text-base leading-none">↗</span>
             </button>
           </div>
 
           {/* Secondary Outlined Button */}
-          <div className="relative group">
+          <div className="relative group w-full sm:w-auto">
             <span className="absolute -inset-[2px] rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-[3px]" />
             <button
               id="hero-how-it-works-cta"
               onClick={onSeeHowItWorks}
-              className="relative inline-flex items-center justify-center rounded-full text-sm font-semibold px-7 py-3.5 border-2 border-stroke bg-bg/80 backdrop-blur-sm text-text-primary hover:border-transparent transition-all duration-300 hover:scale-105 cursor-pointer"
+              className="relative w-full sm:w-auto inline-flex items-center justify-center rounded-full text-xs sm:text-sm font-semibold px-6 sm:px-7 py-3 sm:py-3.5 border-2 border-stroke bg-bg/80 backdrop-blur-sm text-text-primary hover:border-transparent transition-all duration-300 hover:scale-105 cursor-pointer"
             >
               See How It Works
             </button>

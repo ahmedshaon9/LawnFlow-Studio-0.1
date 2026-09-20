@@ -111,13 +111,13 @@ export default function Services({ onOpenAudit }: ServicesProps) {
             </div>
 
             {/* Heading */}
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-normal text-text-primary leading-[1.1] mb-4">
+            <h2 className="text-2xl sm:text-4xl md:text-5xl font-display font-normal text-text-primary leading-[1.15] sm:leading-[1.1] mb-3 sm:mb-4">
               Everything your business needs to{' '}
               <span className="font-display italic text-[#10B981]">win on Google</span>
             </h2>
 
             {/* Subtext */}
-            <p className="text-sm md:text-base text-muted leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-base text-muted leading-relaxed">
               No ad spend. No agencies with 20 layers of account managers. One focused
               system, built for lawn care companies.
             </p>

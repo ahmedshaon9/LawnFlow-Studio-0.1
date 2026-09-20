@@ -176,13 +176,13 @@ export default function Results({ onOpenAudit }: ResultsProps) {
           </div>
 
           {/* Heading with italic accent word */}
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-display font-normal text-text-primary leading-[1.05] mb-4">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-normal text-text-primary leading-[1.1] sm:leading-[1.05] mb-3 sm:mb-4">
             What actually{' '}
             <span className="font-display italic text-[#10B981]">moves</span>
           </h2>
 
           {/* Subtext */}
-          <p className="text-sm md:text-base text-muted max-w-md mx-auto mb-8 leading-relaxed">
+          <p className="text-xs sm:text-sm md:text-base text-muted max-w-md mx-auto mb-6 sm:mb-8 leading-relaxed">
             Rankings are vanity. Calls are sanity. Here&rsquo;s what 90 days looks like
             for a typical client.
           </p>

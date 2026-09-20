@@ -91,13 +91,13 @@ export default function Pricing({ onSelectPlan, onOpenAudit }: PricingProps) {
           </div>
 
           {/* Heading */}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-display italic text-white tracking-tight leading-[1.1] mb-4">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-display italic text-white tracking-tight leading-[1.15] sm:leading-[1.1] mb-3 sm:mb-4">
             Less than one mowing{' '}
             <span className="accent-gradient-text italic font-display">job per week</span>
           </h2>
 
           {/* Subtext */}
-          <p className="text-sm md:text-base text-neutral-300 leading-relaxed max-w-lg mx-auto">
+          <p className="text-xs sm:text-sm md:text-base text-neutral-300 leading-relaxed max-w-lg mx-auto">
             No long-term contracts. No lock-in fees. We retain clients month after month by consistently booking profitable lawn and landscaping jobs.
           </p>
         </motion.div>

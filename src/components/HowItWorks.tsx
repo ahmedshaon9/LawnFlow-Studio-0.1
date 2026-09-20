@@ -57,13 +57,13 @@ export default function HowItWorks({ onOpenAudit }: HowItWorksProps) {
           </div>
 
           {/* Heading */}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-normal text-text-primary leading-[1.1] mb-4">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-display font-normal text-text-primary leading-[1.15] sm:leading-[1.1] mb-3 sm:mb-4">
             Simple enough to{' '}
             <span className="font-display italic text-[#10B981]">start this week</span>
           </h2>
 
           {/* Subtext */}
-          <p className="text-sm md:text-base text-muted leading-relaxed">
+          <p className="text-xs sm:text-sm md:text-base text-muted leading-relaxed">
             No endless onboarding questionnaires. No waiting 6 months for a strategy deck.
             We get your Google presence converting immediately.
           </p>
